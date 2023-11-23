@@ -17,4 +17,4 @@ metrics:
   - avg
   - max
   - sum
-file: /var/log/nginx/access.log
+file: /var/log/nginx/access.ndjson
