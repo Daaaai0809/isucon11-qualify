@@ -83,7 +83,6 @@ type GetIsuListResponse struct {
 type IsuCondition struct {
 	ID         int       `db:"id"`
 	JIAIsuUUID string    `db:"jia_isu_uuid"`
-	Isu 	   *Isu      `db:"isu"` // JOIN で取得する
 	Timestamp  time.Time `db:"timestamp"`
 	IsSitting  bool      `db:"is_sitting"`
 	Condition  string    `db:"condition"`
