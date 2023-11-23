@@ -1,1 +1,1 @@
-CREATE INDEX idx_character ON isu (character);
+CREATE INDEX `idx_character` ON `isu` ("character");
